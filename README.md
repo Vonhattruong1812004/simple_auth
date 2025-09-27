@@ -24,14 +24,14 @@ Sau khi đã cài đặt thư viện và chạy ứng dụng, bạn sử dụng 
    - Trên POSTMAN, tạo một request mới với phương thức **POST**.
    - Nhập địa chỉ:
      ```
-     http://localhost:3000/login
+     http://localhost:3001/login
      ```
    - Vào tab **Body**, chọn **raw** và định dạng là **JSON**.
      - Nhập vào:
        ```json
        {
          "username": "admin",
-         "password": "123456"
+         "password": "12345"
        }
        ```
    - Nhấn **Send** để gửi request.
